@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(photo.3.avif);
+}
+a{
+    margin: 50px;
+    text-transform: none;
+    transition: color , 2s, ease-in-out, ;
+}
+
+#logo{
+    color: orangered;
+    font-size: 30px;
+}
+
+button{
+   background-color: orangered;
+}
+
+.top{ 
+    color: rgb(255, 255, 255);
+    margin-top: 100px;
+    margin-left: 60px ;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.d{
+    font-size: 60;
+    color: orangered;
+}
+
+.delti{
+    font-size: 20px;
+    font-style: normal;
+}
+
+.login_page{
+    max-width: 700px;
+    height: 600px;
+    background-color: black;
+    grid-template-columns: repeat( auto-fit,minmax(200px,1fr));
+    gap: 20px;
+
+}
+
+.from{
+    width: 350px ;
+    height: 250px;
+    position: absolute;
+    border-radius: 10px;
+    padding: 25px;
+    top: -20px;
+    left: 870px;
+    background: linear-gradient(to top, black 50%, black 50px);
+    margin-top: 200px;
+
+}
+ .from h2{
+    text-align: center;
+    font-size: 20px;
+    color: orangered;
+ }
+
+ #gmail{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 40px;
+    text-decoration: transparent;
+ }
+
+ #password{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 40px;
+    text-decoration: transparent;
+ }
+ .from button{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 160px;
+    text-decoration: transparent;
+ }
+
+ .from h4{
+     text-align: center;
+     margin-top: px;
+ }
+
+ .up{
+    color: orange;
+ }
+
+ .from p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+ }
